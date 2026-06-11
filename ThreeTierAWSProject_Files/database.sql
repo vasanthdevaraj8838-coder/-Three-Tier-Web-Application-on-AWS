@@ -1,0 +1,8 @@
+
+CREATE DATABASE webappdb;
+USE webappdb;
+
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100)
+);
